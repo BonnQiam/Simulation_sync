@@ -37,7 +37,8 @@ VL_INLINE_OPT VlCoroutine Vcnt_ceil_tb___024root___eval_initial__TOP__0(Vcnt_cei
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vcnt_ceil_tb___024root___eval_initial__TOP__0\n"); );
     // Body
     while (1U) {
-        co_await vlSelf->__VdlySched.delay(1ULL, "cnt_ceil_tb.v", 
+        co_await vlSelf->__VdlySched.delay(1ULL, nullptr, 
+                                           "cnt_ceil_tb.v", 
                                            28);
         vlSelf->cnt_ceil_tb__DOT__clk = (1U & (~ (IData)(vlSelf->cnt_ceil_tb__DOT__clk)));
     }
@@ -48,10 +49,12 @@ VL_INLINE_OPT VlCoroutine Vcnt_ceil_tb___024root___eval_initial__TOP__1(Vcnt_cei
     Vcnt_ceil_tb__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vcnt_ceil_tb___024root___eval_initial__TOP__1\n"); );
     // Body
-    co_await vlSelf->__VdlySched.delay(1ULL, "cnt_ceil_tb.v", 
+    co_await vlSelf->__VdlySched.delay(1ULL, nullptr, 
+                                       "cnt_ceil_tb.v", 
                                        31);
     vlSelf->cnt_ceil_tb__DOT__en = 1U;
-    co_await vlSelf->__VdlySched.delay(0x63ULL, "cnt_ceil_tb.v", 
+    co_await vlSelf->__VdlySched.delay(0x63ULL, nullptr, 
+                                       "cnt_ceil_tb.v", 
                                        32);
     vlSelf->cnt_ceil_tb__DOT__en = 0U;
 }
@@ -61,10 +64,12 @@ VL_INLINE_OPT VlCoroutine Vcnt_ceil_tb___024root___eval_initial__TOP__2(Vcnt_cei
     Vcnt_ceil_tb__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vcnt_ceil_tb___024root___eval_initial__TOP__2\n"); );
     // Body
-    co_await vlSelf->__VdlySched.delay(0xaULL, "cnt_ceil_tb.v", 
+    co_await vlSelf->__VdlySched.delay(0xaULL, nullptr, 
+                                       "cnt_ceil_tb.v", 
                                        35);
     vlSelf->cnt_ceil_tb__DOT__rst_n = 0U;
-    co_await vlSelf->__VdlySched.delay(1ULL, "cnt_ceil_tb.v", 
+    co_await vlSelf->__VdlySched.delay(1ULL, nullptr, 
+                                       "cnt_ceil_tb.v", 
                                        36);
     vlSelf->cnt_ceil_tb__DOT__rst_n = 1U;
 }
@@ -74,7 +79,8 @@ VL_INLINE_OPT VlCoroutine Vcnt_ceil_tb___024root___eval_initial__TOP__3(Vcnt_cei
     Vcnt_ceil_tb__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vcnt_ceil_tb___024root___eval_initial__TOP__3\n"); );
     // Body
-    co_await vlSelf->__VdlySched.delay(0x28ULL, "cnt_ceil_tb.v", 
+    co_await vlSelf->__VdlySched.delay(0x28ULL, nullptr, 
+                                       "cnt_ceil_tb.v", 
                                        39);
     vlSelf->cnt_ceil_tb__DOT__ceil = 6U;
 }
@@ -84,7 +90,8 @@ VL_INLINE_OPT VlCoroutine Vcnt_ceil_tb___024root___eval_initial__TOP__4(Vcnt_cei
     Vcnt_ceil_tb__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vcnt_ceil_tb___024root___eval_initial__TOP__4\n"); );
     // Body
-    co_await vlSelf->__VdlySched.delay(0x6eULL, "cnt_ceil_tb.v", 
+    co_await vlSelf->__VdlySched.delay(0x6eULL, nullptr, 
+                                       "cnt_ceil_tb.v", 
                                        43);
     VL_FINISH_MT("cnt_ceil_tb.v", 43, "");
 }

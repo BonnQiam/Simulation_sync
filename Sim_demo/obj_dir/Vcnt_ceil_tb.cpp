@@ -93,6 +93,10 @@ VL_ATTR_COLD void Vcnt_ceil_tb::final() {
 const char* Vcnt_ceil_tb::hierName() const { return vlSymsp->name(); }
 const char* Vcnt_ceil_tb::modelName() const { return "Vcnt_ceil_tb"; }
 unsigned Vcnt_ceil_tb::threads() const { return 1; }
+void Vcnt_ceil_tb::prepareClone() const { contextp()->prepareClone(); }
+void Vcnt_ceil_tb::atClone() const {
+    contextp()->threadPoolpOnClone();
+}
 std::unique_ptr<VerilatedTraceConfig> Vcnt_ceil_tb::traceConfig() const {
     return std::unique_ptr<VerilatedTraceConfig>{new VerilatedTraceConfig{false, false, false}};
 };
