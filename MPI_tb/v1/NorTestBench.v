@@ -95,7 +95,8 @@ for ( i=6'b101111; i>= 0; i=i-1 )//遍历 47 - 0 的地址
         Mpi_rw = 1 ;  
     end
 $display ("Simulation Stopped!");    
-$stop;
+//$stop;
+$finish;
 end
 
 // Design Module
