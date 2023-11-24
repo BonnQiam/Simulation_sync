@@ -8,8 +8,8 @@ module MPI(
     Clock , 
     Rst_n ,
     // uP interface
-    Mpi_data , //! 读/写数据 
-    Mpi_addr , // 地址  
+    Mpi_data , 
+    Mpi_addr , 
     Mpi_cs_n , //Chip Select
     Mpi_rw  // 1:read; 0:write
     // to/from Storage Part
@@ -18,7 +18,7 @@ module MPI(
 // clock and reset
 input            Clock ;
 input            Rst_n ;
-inout  [7:0]     Mpi_data ; //!读/写数据
+inout  [7:0]     Mpi_data ;
 input  [5:0]     Mpi_addr ;      
 input            Mpi_cs_n ; //Chip Select
 input            Mpi_rw ; // 1:read; 0:write
@@ -36,9 +36,9 @@ wire [7:0]       Data_out;
 always @(posedge Clock or negedge Rst_n)
 begin
     if (~Rst_n) begin
-        Cs_sample_sync <= 1'b1 ; 
+        Cs_sample_sync <= 1'b1 ;
+        Cs_sample      <= 1'b1 ; 
         Cs_sample_pipe <= 1'b1 ;
-        Cs_sample <= 1'b1 ;
     end
     else begin
         Cs_sample_sync <= Mpi_cs_n ; 

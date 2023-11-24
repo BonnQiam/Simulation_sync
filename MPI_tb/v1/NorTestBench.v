@@ -43,8 +43,8 @@ begin : ACCESS
 integer i;
 Mpi_addr = 0 ;
 Mpi_cs_n = 1 ;
-Mpi_rw = 1 ;
-Mpi_oe = 0 ;
+Mpi_rw   = 1 ;
+Mpi_oe   = 0 ;
 Data_out = 0 ;
 # 222 ;
 for ( i=6'b101111; i>= 0; i=i-1 )//遍历 47 - 0 的地址
@@ -53,7 +53,7 @@ for ( i=6'b101111; i>= 0; i=i-1 )//遍历 47 - 0 的地址
         # SLOW_PERIOD;
         Data_out = {$random} % 256; //data between 0~255
         Mpi_addr = i ;
-        Mpi_rw = 0 ;
+        Mpi_rw   = 0 ;
         # SLOW_PERIOD;
         Mpi_oe = 1 ;
         # (SLOW_PERIOD/4);
