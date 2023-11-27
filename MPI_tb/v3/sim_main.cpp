@@ -1,17 +1,17 @@
 #include <verilated.h>
 #include <verilated_vcd_c.h>
-#include "VNorTestBench.h"
+#include "Vtestcase.h"
  
 int main(int argc, char** argv){
 //构造环境对象，设计对象，波形对象
   VerilatedContext* m_contextp = new VerilatedContext;//环境
   VerilatedVcdC*    m_tracep   = new VerilatedVcdC;//波形
-  VNorTestBench*     m_duvp     = new VNorTestBench;//设计
+  Vtestcase*        m_duvp     = new Vtestcase;//设计
 //波形配置
   m_contextp->traceEverOn(true);//环境里打开波形开关
 //  m_duvp->trace(m_tracep,3);//深度为3
   m_duvp->trace(m_tracep,2);//深度为3
-  m_tracep->open("NorTestBench_wf.vcd");//打开要存数据的vcd文件
+//  m_tracep->open("testcase_wf.vcd");//打开要存数据的vcd文件
 //写入数据到波形文件里
   while (!m_contextp->gotFinish()){
   //刷新电路状态
