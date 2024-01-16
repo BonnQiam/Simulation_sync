@@ -3,8 +3,6 @@
 //            EDA Pioneer
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 `timescale 1ns/100ps
-/* verilator lint_off MULTITOP */
-`include "harness.v"
 module testcase ;
 
 //harness inst_harness ();
@@ -49,4 +47,3 @@ begin: MYCASE
 end
 
 endmodule
-/* verilator lint_off MULTITOP */

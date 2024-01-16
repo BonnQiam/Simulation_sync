@@ -1,0 +1,170 @@
+# vsim -c NorTestBench 
+# Start time: 00:14:29 on Jan 16,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.NorTestBench(fast)
+# Loading work.altsyncram(fast)
+# Addr: 2f -> DataWrite: 24
+# Addr: 2f -> DataRead: 24
+# ------------------------
+# Addr: 2e -> DataWrite: 81
+# Addr: 2e -> DataRead: 81
+# ------------------------
+# Addr: 2d -> DataWrite: 09
+# Addr: 2d -> DataRead: 09
+# ------------------------
+# Addr: 2c -> DataWrite: 63
+# Addr: 2c -> DataRead: 63
+# ------------------------
+# Addr: 2b -> DataWrite: 0d
+# Addr: 2b -> DataRead: 0d
+# ------------------------
+# Addr: 2a -> DataWrite: 8d
+# Addr: 2a -> DataRead: 8d
+# ------------------------
+# Addr: 29 -> DataWrite: 65
+# Addr: 29 -> DataRead: 65
+# ------------------------
+# Addr: 28 -> DataWrite: 12
+# Addr: 28 -> DataRead: 12
+# ------------------------
+# Addr: 27 -> DataWrite: 01
+# Addr: 27 -> DataRead: 01
+# ------------------------
+# Addr: 26 -> DataWrite: 0d
+# Addr: 26 -> DataRead: 0d
+# ------------------------
+# Addr: 25 -> DataWrite: 76
+# Addr: 25 -> DataRead: 76
+# ------------------------
+# Addr: 24 -> DataWrite: 3d
+# Addr: 24 -> DataRead: 3d
+# ------------------------
+# Addr: 23 -> DataWrite: ed
+# Addr: 23 -> DataRead: ed
+# ------------------------
+# Addr: 22 -> DataWrite: 8c
+# Addr: 22 -> DataRead: 8c
+# ------------------------
+# Addr: 21 -> DataWrite: f9
+# Addr: 21 -> DataRead: f9
+# ------------------------
+# Addr: 20 -> DataWrite: c6
+# Addr: 20 -> DataRead: c6
+# ------------------------
+# Addr: 1f -> DataWrite: c5
+# Addr: 1f -> DataRead: c5
+# ------------------------
+# Addr: 1e -> DataWrite: aa
+# Addr: 1e -> DataRead: aa
+# ------------------------
+# Addr: 1d -> DataWrite: e5
+# Addr: 1d -> DataRead: e5
+# ------------------------
+# Addr: 1c -> DataWrite: 77
+# Addr: 1c -> DataRead: 77
+# ------------------------
+# Addr: 1b -> DataWrite: 12
+# Addr: 1b -> DataRead: 12
+# ------------------------
+# Addr: 1a -> DataWrite: 8f
+# Addr: 1a -> DataRead: 8f
+# ------------------------
+# Addr: 19 -> DataWrite: f2
+# Addr: 19 -> DataRead: f2
+# ------------------------
+# Addr: 18 -> DataWrite: ce
+# Addr: 18 -> DataRead: ce
+# ------------------------
+# Addr: 17 -> DataWrite: e8
+# Addr: 17 -> DataRead: e8
+# ------------------------
+# Addr: 16 -> DataWrite: c5
+# Addr: 16 -> DataRead: c5
+# ------------------------
+# Addr: 15 -> DataWrite: 5c
+# Addr: 15 -> DataRead: 5c
+# ------------------------
+# Addr: 14 -> DataWrite: bd
+# Addr: 14 -> DataRead: bd
+# ------------------------
+# Addr: 13 -> DataWrite: 2d
+# Addr: 13 -> DataRead: 2d
+# ------------------------
+# Addr: 12 -> DataWrite: 65
+# Addr: 12 -> DataRead: 65
+# ------------------------
+# Addr: 11 -> DataWrite: 63
+# Addr: 11 -> DataRead: 63
+# ------------------------
+# Addr: 10 -> DataWrite: 0a
+# Addr: 10 -> DataRead: 0a
+# ------------------------
+# Addr: 0f -> DataWrite: 80
+# Addr: 0f -> DataRead: 80
+# ------------------------
+# Addr: 0e -> DataWrite: 20
+# Addr: 0e -> DataRead: 20
+# ------------------------
+# Addr: 0d -> DataWrite: aa
+# Addr: 0d -> DataRead: aa
+# ------------------------
+# Addr: 0c -> DataWrite: 9d
+# Addr: 0c -> DataRead: 9d
+# ------------------------
+# Addr: 0b -> DataWrite: 96
+# Addr: 0b -> DataRead: 96
+# ------------------------
+# Addr: 0a -> DataWrite: 13
+# Addr: 0a -> DataRead: 13
+# ------------------------
+# Addr: 09 -> DataWrite: 0d
+# Addr: 09 -> DataRead: 0d
+# ------------------------
+# Addr: 08 -> DataWrite: 53
+# Addr: 08 -> DataRead: 53
+# ------------------------
+# Addr: 07 -> DataWrite: 6b
+# Addr: 07 -> DataRead: 6b
+# ------------------------
+# Addr: 06 -> DataWrite: d5
+# Addr: 06 -> DataRead: d5
+# ------------------------
+# Addr: 05 -> DataWrite: 02
+# Addr: 05 -> DataRead: 02
+# ------------------------
+# Addr: 04 -> DataWrite: ae
+# Addr: 04 -> DataRead: ae
+# ------------------------
+# Addr: 03 -> DataWrite: 1d
+# Addr: 03 -> DataRead: 1d
+# ------------------------
+# Addr: 02 -> DataWrite: cf
+# Addr: 02 -> DataRead: cf
+# ------------------------
+# Addr: 01 -> DataWrite: 23
+# Addr: 01 -> DataRead: 23
+# ------------------------
+# Addr: 00 -> DataWrite: 0a
+# Addr: 00 -> DataRead: 0a
+# ------------------------
+# Simulation Finished!
+# ** Note: $stop    : NorTestBench.v(111)
+#    Time: 14046 ns  Iteration: 0  Instance: /NorTestBench
+# Break at NorTestBench.v line 111
+# Stopped at NorTestBench.v line 111
+# End time: 00:14:46 on Jan 16,2024, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 0

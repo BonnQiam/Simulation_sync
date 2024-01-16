@@ -1,0 +1,168 @@
+# vsim -c NorTestBench 
+# Start time: 00:12:47 on Jan 16,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.NorTestBench(fast)
+# Loading work.altsyncram(fast)
+# Addr: 101111 -> DataWrite:  36
+# Addr: 101111 -> DataRead:  36
+# ------------------------
+# Addr: 101110 -> DataWrite: 129
+# Addr: 101110 -> DataRead: 129
+# ------------------------
+# Addr: 101101 -> DataWrite:   9
+# Addr: 101101 -> DataRead:   9
+# ------------------------
+# Addr: 101100 -> DataWrite:  99
+# Addr: 101100 -> DataRead:  99
+# ------------------------
+# Addr: 101011 -> DataWrite:  13
+# Addr: 101011 -> DataRead:  13
+# ------------------------
+# Addr: 101010 -> DataWrite: 141
+# Addr: 101010 -> DataRead: 141
+# ------------------------
+# Addr: 101001 -> DataWrite: 101
+# Addr: 101001 -> DataRead: 101
+# ------------------------
+# Addr: 101000 -> DataWrite:  18
+# Addr: 101000 -> DataRead:  18
+# ------------------------
+# Addr: 100111 -> DataWrite:   1
+# Addr: 100111 -> DataRead:   1
+# ------------------------
+# Addr: 100110 -> DataWrite:  13
+# Addr: 100110 -> DataRead:  13
+# ------------------------
+# Addr: 100101 -> DataWrite: 118
+# Addr: 100101 -> DataRead: 118
+# ------------------------
+# Addr: 100100 -> DataWrite:  61
+# Addr: 100100 -> DataRead:  61
+# ------------------------
+# Addr: 100011 -> DataWrite: 237
+# Addr: 100011 -> DataRead: 237
+# ------------------------
+# Addr: 100010 -> DataWrite: 140
+# Addr: 100010 -> DataRead: 140
+# ------------------------
+# Addr: 100001 -> DataWrite: 249
+# Addr: 100001 -> DataRead: 249
+# ------------------------
+# Addr: 100000 -> DataWrite: 198
+# Addr: 100000 -> DataRead: 198
+# ------------------------
+# Addr: 011111 -> DataWrite: 197
+# Addr: 011111 -> DataRead: 197
+# ------------------------
+# Addr: 011110 -> DataWrite: 170
+# Addr: 011110 -> DataRead: 170
+# ------------------------
+# Addr: 011101 -> DataWrite: 229
+# Addr: 011101 -> DataRead: 229
+# ------------------------
+# Addr: 011100 -> DataWrite: 119
+# Addr: 011100 -> DataRead: 119
+# ------------------------
+# Addr: 011011 -> DataWrite:  18
+# Addr: 011011 -> DataRead:  18
+# ------------------------
+# Addr: 011010 -> DataWrite: 143
+# Addr: 011010 -> DataRead: 143
+# ------------------------
+# Addr: 011001 -> DataWrite: 242
+# Addr: 011001 -> DataRead: 242
+# ------------------------
+# Addr: 011000 -> DataWrite: 206
+# Addr: 011000 -> DataRead: 206
+# ------------------------
+# Addr: 010111 -> DataWrite: 232
+# Addr: 010111 -> DataRead: 232
+# ------------------------
+# Addr: 010110 -> DataWrite: 197
+# Addr: 010110 -> DataRead: 197
+# ------------------------
+# Addr: 010101 -> DataWrite:  92
+# Addr: 010101 -> DataRead:  92
+# ------------------------
+# Addr: 010100 -> DataWrite: 189
+# Addr: 010100 -> DataRead: 189
+# ------------------------
+# Addr: 010011 -> DataWrite:  45
+# Addr: 010011 -> DataRead:  45
+# ------------------------
+# Addr: 010010 -> DataWrite: 101
+# Addr: 010010 -> DataRead: 101
+# ------------------------
+# Addr: 010001 -> DataWrite:  99
+# Addr: 010001 -> DataRead:  99
+# ------------------------
+# Addr: 010000 -> DataWrite:  10
+# Addr: 010000 -> DataRead:  10
+# ------------------------
+# Addr: 001111 -> DataWrite: 128
+# Addr: 001111 -> DataRead: 128
+# ------------------------
+# Addr: 001110 -> DataWrite:  32
+# Addr: 001110 -> DataRead:  32
+# ------------------------
+# Addr: 001101 -> DataWrite: 170
+# Addr: 001101 -> DataRead: 170
+# ------------------------
+# Addr: 001100 -> DataWrite: 157
+# Addr: 001100 -> DataRead: 157
+# ------------------------
+# Addr: 001011 -> DataWrite: 150
+# Addr: 001011 -> DataRead: 150
+# ------------------------
+# Addr: 001010 -> DataWrite:  19
+# Addr: 001010 -> DataRead:  19
+# ------------------------
+# Addr: 001001 -> DataWrite:  13
+# Addr: 001001 -> DataRead:  13
+# ------------------------
+# Addr: 001000 -> DataWrite:  83
+# Addr: 001000 -> DataRead:  83
+# ------------------------
+# Addr: 000111 -> DataWrite: 107
+# Addr: 000111 -> DataRead: 107
+# ------------------------
+# Addr: 000110 -> DataWrite: 213
+# Addr: 000110 -> DataRead: 213
+# ------------------------
+# Addr: 000101 -> DataWrite:   2
+# Addr: 000101 -> DataRead:   2
+# ------------------------
+# Addr: 000100 -> DataWrite: 174
+# Addr: 000100 -> DataRead: 174
+# ------------------------
+# Addr: 000011 -> DataWrite:  29
+# Addr: 000011 -> DataRead:  29
+# ------------------------
+# Addr: 000010 -> DataWrite: 207
+# Addr: 000010 -> DataRead: 207
+# ------------------------
+# Addr: 000001 -> DataWrite:  35
+# Addr: 000001 -> DataRead:  35
+# ------------------------
+# Addr: 000000 -> DataWrite:  10
+# Addr: 000000 -> DataRead:  10
+# ------------------------
+# Simulation Stopped!
+# ** Note: $finish    : NorTestBench.v(99)
+#    Time: 14046 ns  Iteration: 0  Instance: /NorTestBench
+# End time: 00:12:51 on Jan 16,2024, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
