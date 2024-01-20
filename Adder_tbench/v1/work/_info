@@ -1,0 +1,154 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/qiamking/Github/Simulation_sync/Adder_tbench/v1
+T_opt
+!s11d tb_adder_sv_unit /home/qiamking/Github/Simulation_sync/Adder_tbench/v1/work 1 intf 1 /home/qiamking/Github/Simulation_sync/Adder_tbench/v1/work 
+!s110 1705737687
+V>lN<FQH[zJg^bfT^b9U9g2
+04 2 4 work tb fast 0
+=1-000c29a0d74b-65ab7dd6-eb8e2-1eb0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.2_1;73
+vadder
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1705737121
+!i10b 1
+!s100 n:3kig2[FMfGSfSR=Ez3:1
+I=4ARCYNCQC;gVQYOQdg7;0
+S1
+R1
+w1705736141
+8adder.sv
+Fadder.sv
+!i122 0
+L0 1 7
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+!s108 1705737121.000000
+!s107 adder.sv|
+!s90 adder.sv|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Xadder_test_sv_unit
+Z7 !s115 intf
+R3
+!s110 1705737130
+VB`>GdJ<^jU[I2Z]>cHIR?1
+r1
+!s85 0
+!i10b 1
+!s100 >6GOlB;66R[2iNWe8Qk@03
+IB`>GdJ<^jU[I2Z]>cHIR?1
+!i103 1
+S1
+R1
+w1705737084
+8adder_test.sv
+Z8 Fadder_test.sv
+!i122 1
+Z9 L0 2 0
+R5
+31
+!s108 1705737130.000000
+!s107 adder_test.sv|
+!s90 adder_test.sv|
+!i113 0
+R6
+R2
+Yintf
+Z10 !s105 tb_adder_sv_unit
+Z11 DXx4 work 16 tb_adder_sv_unit 0 22 l`VlIiXOJnIaOz1@B2Sob2
+R3
+Z12 !s110 1705737679
+!i10b 1
+!s100 3]0AdMWfDGYYLXL^n9O^U0
+I;eNVlCk62hB`[?V0=?8kD1
+S1
+R1
+w1705735759
+8interface.sv
+Z13 Finterface.sv
+!i122 9
+L0 1 0
+R4
+R5
+r1
+!s85 0
+31
+Z14 !s108 1705737679.000000
+Z15 !s107 adder_test.sv|interface.sv|tb_adder.sv|
+Z16 !s90 tb_adder.sv|
+!i113 0
+R6
+R2
+vtb
+R3
+R11
+R12
+R4
+r1
+!s85 0
+!i10b 1
+!s100 z?f9@caBdXL4?W95kO1KA3
+I^N6KmV?9KVA_IoS_2a6l51
+R10
+S1
+R1
+Z17 w1705737679
+Z18 8tb_adder.sv
+Z19 Ftb_adder.sv
+!i122 9
+L0 5 19
+R5
+31
+R14
+R15
+R16
+!i113 0
+R6
+R2
+Xtb_adder_sv_unit
+R7
+R3
+R12
+Vl`VlIiXOJnIaOz1@B2Sob2
+r1
+!s85 0
+!i10b 1
+!s100 CL7d?i`STJFbH5:dPE@<>3
+Il`VlIiXOJnIaOz1@B2Sob2
+!i103 1
+S1
+R1
+R17
+R18
+R19
+R13
+R8
+!i122 9
+R9
+R5
+31
+R14
+R15
+R16
+!i113 0
+R6
+R2

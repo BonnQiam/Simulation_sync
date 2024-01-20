@@ -1,0 +1,22 @@
+$date
+	Sat Jan 20 00:01:32 2024
+$end
+$version
+	QuestaSim Version 2021.2_1
+$end
+$timescale
+	1ns
+$end
+
+$scope module tb $end
+$upscope $end
+
+$scope begin tb_adder_sv_unit $end
+$upscope $end
+
+$scope begin std $end
+$upscope $end
+$enddefinitions $end
+#50
+$dumpvars
+$end
