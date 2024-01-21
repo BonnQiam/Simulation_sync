@@ -1,0 +1,85 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/qiamking/Github/Simulation_sync/SystemVerilog_Tutorial
+T_opt
+!s110 1705804951
+VXoel8Z5Ci2?@3ZaKXhR8[0
+04 15 4 work string_datatype fast 0
+=1-000c29a0d74b-65ac8497-81a5d-3b19
+Z2 !s124 OEM100
+Z3 o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2_1;73
+R1
+T_opt1
+!s110 1705805920
+VPCZ^:TNIih2B3a2<Eofda1
+04 13 4 work enum_datatype fast 0
+=1-000c29a0d74b-65ac8860-b082c-3e2f
+R2
+R3
+R4
+n@_opt1
+R5
+venum_datatype
+Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1705805914
+!i10b 1
+!s100 ;z@9Fhik8bE8FYnE@FT<c2
+IzSK<fanbo>eY<BQN^Xkc=0
+S1
+R1
+w1705805911
+8enum_5.sv
+Fenum_5.sv
+!i122 5
+L0 1 32
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+!s108 1705805914.000000
+!s107 enum_5.sv|
+!s90 enum_5.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vstring_datatype
+R6
+!s110 1705804945
+!i10b 1
+!s100 BFeZWlJCLLo6Rdz79]TcM0
+IlaC_KfPWA:7e6l`naCg1R3
+S1
+R1
+w1705804942
+8String.sv
+FString.sv
+!i122 1
+L0 1 13
+R7
+R8
+r1
+!s85 0
+31
+!s108 1705804944.000000
+!s107 String.sv|
+!s90 String.sv|
+!i113 0
+R9
+R4
